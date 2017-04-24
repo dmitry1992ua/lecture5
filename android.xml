@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IE Browser">
+    <parameter name="browser" value="android"/>
+    <test name="Create New Order">
+        <classes>
+            <class name="OrderingTest"></class>
+        </classes>
+    </test>
+</suite>
